@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnitConverters</title>
+
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header >
+        <h1 id="heading" class="text-light p-3">Unit<span class="text-success">Converter</span><span class="net">.net</span> </h1>
+
+    </header>
+    <main >
+        <div class="row">
+            <!-- first div start here -->
+            <div class="col-lg-6">
+                
+                <h1 class=" ttr text-success ">Unit Converter Express Version</h1> <br>
+                <h2 class="ttr text-success">Length</h2>
+                <button class=" btn-block btn btn-outline-primary mb-3 btn-sm">Temperature</button>
+                <button class=" btn-block btn btn-outline-primary mb-3 btn-sm">Area</button>
+                <button class=" btn-block btn btn-outline-primary mb-3 btn-sm">Volume</button>
+                <button class=" btn-block btn btn-outline-primary mb-3 btn-sm">Weight</button>
+                <button class=" btn-block btn btn-outline-primary mb-3 btn-sm">Time</button>
+                <div class="div1">
+                    <div class="row">
+                        <div class="col">
+                            <h4 class="ml-3 p-3 " for="#">From:</h4><br>
+                            <input  type="number" placeholder="input" onchange="unit_changer();" id="input" class="intp m-3 p-2">
+                            <label for="#"><select name="#" id="inputType" class="p-2 m-3 bg-success " >
+                                <option value="meter"  id="meter">Meter</option>
+                                <option value="kilometer" id="kilo">kilometer</option>
+                                <option value="centimete" id="cen">Centimeter</option>
+                                <option value="inchi" id="inch"> Inch</option>
+                               
+                                <option value="millieter" id="mili">Millieter</option>
+                                <option value="nanometer" id="nano">Nanometer</option>
+                                <option value="yard" id="yard">Yard</option>
+                                <option value="feet" id="feet">Foot</option>
+                             
+                                
+                            </select></label>
+                            
+                        </div>
+
+                        
+
+
+                        <div class="col">
+                            <h4 class="ml-3 p-3 " for="#">To:</h4><br>
+                            <input  type="number"  id="result" placeholder="result" class="intp m-3 p-2">
+                            <label for="#"><select name="#" id="resultType" class="p-2 m-3 bg-success">
+                                <option value="centimeter" id="cen">Centimeter</option>
+                                <option value="kilometer" id="lilo">kilometer</option>
+                                <option value="meter" id="meter">Meter</option>
+                                <option value="millieter" id="mili">Millieter</option>
+                                <option value="nanometer" id="nano">Nanometer</option>
+                                <option value="yard" id="yard">Yard</option>
+                                <option value="feet" id="feet">Foot</option>
+                                <option value="inchi" id="inch">Inch</option>
+                                
+                            </select></label>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="unit-div mt-4">
+                    <h1 class="text-success ttr">Find the Units to Convert</h1>
+                    <div class="row">
+                        <div class="col">
+                            <label class="ml-3 p-3 " for="#">From Unit:</label><br>
+                            <input  type="number" placeholder="e.g. Kilogram" id="#" class="intp m-3">
+                        </div>
+                        <div class="col">
+                            <label class="ml-3 p-3 " for="#">To Unit:</label><br>
+                            <input  type="number" placeholder="e.g. lbs" id="#" class="intp m-3">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>    
+            <!-- first div end here -->
+            <!-- 2nd div start here -->
+            <div class="col-lg-6 col-sm-12">
+               
+                    <div class="div2">
+                        <ul>
+                            <li class=" list tru list-group-item text-light ">All Converters</li>
+                            <li class=" list list-group-item text-success ">Common Converters</li>
+                            <li class=" list list-group-item text-success ">Engineering Converters</li>
+                            <li class=" list list-group-item text-success " >Heat Converters</li>
+                            <li class=" list list-group-item text-success ">Fluids Converters</li>
+                            <li class=" list list-group-item text-success ">Light Converters</li>
+                            <li class=" list list-group-item text-success ">Electricity Converters</li>
+                            <li class=" list list-group-item text-success ">Magnetism Converters</li>
+                            <li class=" list list-group-item text-success ">Radiology Converters</li>
+                            <li class=" list list-group-item text-success ">Common Unit Systems</li>
+                        </ul>
+                    </div>
+                    
+                
+                 
+            </div>
+            <!-- 2nd div end here -->
+
+            <h1 class="ttr mt-5 text-success">Common Conversions</h1>
+           
+        </div>
+
+    </main>
+    
+        
+       
+    <!-- <div class="input-div">
+        <label>Feet</label><br>
+        <input type="number"  id="feet" class="inpt">
+
+    </div>
+    <div class="input-div">
+        <h1>=</h1>
+    </div>    
+    
+
+    <div class="input-div">
+        <label for="unit">Inches</label><br>
+        <input type="number"  id="inch" class="inpt">
+
+    </div> -->
+
+    <!--end container div-->
+
+    <script src="unit.js"></script>
+</body>
+
+</html>

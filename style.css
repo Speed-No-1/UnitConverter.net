@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: tahoma;
+    margin: 4px;
+    padding: 10px;
+}
+header{
+    background-color: rgb(11, 61, 11);
+   
+    
+}
+.net{
+    font-size: 18px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-style: italic;
+    font-weight: bolder;
+}
+.div1{
+    background-color: rgb(182, 183, 188);
+    border: 1px solid black;
+    
+}
+.btn{
+    background-color: rgb(30, 234, 85);
+    color: rgb(6, 7, 6);
+}
+
+.inpt{
+    padding: 5px 10px;
+    margin: 10px;
+    font-weight: bolder;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+label{
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bolder;
+} 
+
+select{
+    padding: 5px 10px;
+    margin: 10px;
+    font-weight: bolder;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+.unit-div{
+    background-color: rgb(145, 188, 145);
+    
+    border: 1px solid black;
+}
+.ttr{
+    font-size: 23px;
+}
+.list{
+    font-weight: bolder;
+    background-color: rgb(191, 235, 235);
+    cursor: pointer;
+}
+.list:hover{
+    background-color: blue;
+    color: white;
+}
+.tru{
+    background-color: rgb(15, 70, 22);
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: tahoma;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+#container{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    background-color: lightgreen;
+    border-radius: 10px;
+    padding: 20px;
+}
+.input-div{
+    display: inline-block;
+}
+.inpt{
+    padding: 5px 10px;
+    margin: 10px;
+    font-weight: bolder;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+label{
+    font-size: 20px;
+} */
